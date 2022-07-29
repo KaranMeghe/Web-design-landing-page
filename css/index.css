@@ -1,0 +1,112 @@
+/* Global reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../images/backcover.svg);
+  background-position: right top;
+  background-size: auto 111%;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+/*---------- main div ----------*/
+.main-div {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+/*---------- end of main div ----------*/
+
+/*---------- nav section ----------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  z-index: 1;
+  /* padding: 0 35px; */
+}
+nav img {
+  height: 45%;
+}
+nav .nav-items {
+  display: flex;
+}
+nav .nav-items .nav-item {
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+nav .signin-btn {
+  border: none;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  padding: 4px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/*---------- end of nav section ----------*/
+
+/*----------------------- intro section ---------------------*/
+.into-section {
+  display: flex;
+}
+.intro-section .left-section {
+  width: 50%;
+  margin-top: 10rem;
+}
+
+.left-section h1 {
+  font-size: 4rem;
+  color: #3e4794;
+}
+
+.left-section h4 {
+  margin: 5rem 0;
+  width: 53%;
+  font-size: 16px;
+  color: #6c6c6c;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.left-section .learn-more-btn {
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  border-radius: 50px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.left-section .imgs-div {
+  position: relative;
+  width: 50%;
+}
+
+.left-section .imgs-div,
+img:nth-of-type(3) {
+  position: absolute;
+  width: 45%;
+  top: 25%;
+  left: 45%;
+}
+
+.imgs-div .vector-img {
+  position: absolute;
+  width: 5%;
+  left: 45%;
+}
+.imgs-div .vector-dot {
+  position: absolute;
+  left: 48%;
+  width: 1%;
+}
+/*------------------ end of intro section -------------------*/ ;
